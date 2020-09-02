@@ -518,7 +518,7 @@ header {
 .blog-new-page {
   background-color: #FFF; }
 
-/* ===================================== Fooer CSS ================================== */
+/* ===================================== Footer CSS ================================== */
 .footer {
   padding: 50px;
   padding-bottom: 0px;
@@ -593,5 +593,7 @@ header {
   @media screen and (max-width: 940px) {
     .contact-rooo {
       padding: 50px 10px; } }
+
+
 
 /*# sourceMappingURL=style.css.map */
