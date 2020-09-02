@@ -1,0 +1,393 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Pediatric Therapy | Smarteyeapps.com</title>
+
+    <link rel="shortcut icon" href="{% static 'website/images/fav.jpg' %}">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+    <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/fontawsom-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/plugins/slider/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'website/plugins/slider/css/owl.theme.default.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/style.css' %}" />
+</head>
+
+    <body>
+    
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 left-item">
+                        <ul>
+                            <li>Welcome to Pediatric Therapy!</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block right-item">
+                        <ul>
+                             <li><i class="fas fa-envelope-square"></i> sales@smarteyeapps.com</li>
+                             <li><i class="fas fa-phone-square"></i> +123 987 887 765</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="nav-head" class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 nav-img">
+                        <img src="{% static 'website/images/logo.jpg' %}" alt="">
+                       <a data-toggle="collapse" data-target="#menu" href="#menu" ><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-md-9 d-none d-md-block nav-item">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="team.html">Our Team</a></li>
+                            <li><a href="contact_us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+  
+    <!-- ################# Slider Starts Here#######################--->
+     <div class="slider">
+        <!-- Set up your HTML -->
+        <div class="owl-carousel ">
+            <div class="slider-img">
+                <div class="item">
+                    <div class="slider-img"><img src="{% static 'website/images/slider/slider-1.jpg' %}" alt=""></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                                <div class="slider-captions">
+                                    <h1 class="slider-title">Feeling stress or anxious?</h1>
+                                    <p class="slider-text hidden-xs">We can help you conquer a wide range of psychological and emotional problems.</p>
+                                    <a href="{% url 'services' %}" class="btn btn-info hidden-xs">View All Therapies</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-img"><img src="{% static 'website/images/slider/slider-2.jpg' %}" alt=""></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                            <div class="slider-captions">
+                                <h1 class="slider-title">It's time for better help.</h1>
+                                <p class="slider-text hidden-xs">We can help you conquer a wide range of psychological and emotional problems.</p>
+                                <a href="{% url 'contact' %}" class="btn btn-info hidden-xs">Schedule A Visit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-img"> <img src="{% static 'website/images/slider/slider-3.jpg' %}" alt=""></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                            <div class="slider-captions">
+                                <h1 class="slider-title">Meet our psychiatrists</h1>
+                                <p class="slider-text hidden-xs">Our psychiatrists are highly skilled to meet your unique needs.</p>
+                                <a href="{% url 'team'%}" class="btn btn-info hidden-xs">Meet Psychiatrists</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+     <!-- ################# Health Care Here#######################--->
+     
+     <section class="health-care">
+         <div class="container">
+            <div class="row">
+                 <div class="col-md-3 col-sm-6 vd">
+                     <img src="{% static 'website/images/services/gallery_01.jpg' %}" alt="">
+                     <h4>Premium Care</h4>
+                     <p>No happy ending tho</p>
+                     
+                 </div>
+                 <div class="col-md-3 col-sm-6 vd">
+                     <img src="{% static 'website/images/services/gallery_02.jpg' %}" alt="">
+                     <h4>Powerful Medicine</h4>
+                     <p>We will get you F***ed</p>
+                     
+                 </div>
+                 <div class="col-md-3 col-sm-6 vd">
+                     <img src="{% static 'website/images/services/gallery_03.jpg' %}" alt="">
+                     <h4>Quality Equipments</h4>
+                     <p>We got the mula for the right tech!</p>
+                     
+                 </div>
+                 <div class="col-md-3 col-sm-6 vd">
+                     <img src="{% static 'website/images/services/gallery_04.jpg' %}" alt="">
+                     <h4>Experiance Docors</h4>
+                     <p>30 billion years of exp!</p>
+                        <p class="slider-text hidden-xs"></p>
+                        <center><a href="{% url 'team'%}" class="btn btn-info hidden-xs">More info!</a></center>
+                 </div>
+            </div>
+            
+             
+         </div>
+     </section>
+     
+           
+     <!-- ################# Services Starts Here#######################--->
+     
+     <section class="our-services">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-7 col-sm-12">
+                     <div class="service-box">
+                         <div class=" d-flex">
+                            <div class="icon">
+                                 <i class="fas fa-hospital-alt"></i>
+                            </div>
+                            <div class="det">
+                                <b>Newest Technologies</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.Lorem ipsum dolor sit amet, consectetur  dolor sit amet, consectetur a adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                            </div>
+                             
+                         </div>
+                     </div>
+                      <div class="service-box">
+                         <div class=" d-flex">
+                            <div class="icon">
+                                 <i class="fas fa-user-md"></i>
+                            </div>
+                            <div class="det">
+                                <b>Newest Technologies</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                            </div>
+                             
+                         </div>
+                     </div>
+                      <div class="service-box">
+                         <div class=" d-flex">
+                            <div class="icon">
+                                 <i class="fas fa-briefcase-medical"></i>
+                            </div>
+                            <div class="det">
+                                <b>Newest Technologies</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                            </div>
+                             
+                         </div>
+                     </div>
+                      <div class="service-box">
+                         <div class=" d-flex">
+                            <div class="icon">
+                                 <i class="fas fa-capsules"></i>
+                            </div>
+                            <div class="det">
+                                <b>Newest Technologies</b>
+                                <p>Lorem ipsum dolor sit amet,  dolor sit amet, consectetur a  dolor sit amet, consectetur a consecteturt nec leo lobortis blandit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut erat nec leo lobortis blandit.</p>
+                            </div>
+                             
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-5 col-sm-12">
+                     <div class="imagr-box">
+                         <img src="{% static 'website/images/side-image.jpg' %}" alt="">
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     
+     <!-- ################# AppointmentStarts Here#######################--->
+
+    <div class="professional-details">
+        <div class="layy">
+            <div class="container">
+                <div class="title-another row">
+                    <h4>We Are Professionals</h4>
+                    <h2>Professional Approach</h2>
+                    <h3>and Quality Services</h3>
+                    <div class="btn-ro">
+                        <a href="{% url 'contact'%}"class="btn btn-default">Book an Appointment</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ################# Our Team Starts Here#######################--->
+    <section class="our-team">
+        <div class="container">
+            <div class="inner-title row">
+                <h2>Our Team</h2>
+                <p>Take a look at our Team</p>
+            </div>
+            <div class="row team-row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="{% static 'website/images/team/Crystal.jpg' %}" alt="">
+                        <div class="det-o">
+                            <h4>Crystal Medina</h4>
+                            <i>Executive Director</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="{% static 'website/images/team/team-memb2.jpg' %}" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>Facial Surgan</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="{% static 'website/images/team/team-memb3.jpg' %}" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>Facial Surgan</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-usr">
+                        <img src="{% static 'website/images/team/team-memb4.jpg' %}" alt="">
+                        <div class="det-o">
+                            <h4>David Kanuel</h4>
+                            <i>Facial Surgan</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+   <!--  ************************* Blog Starts Here ************************** -->
+            <div class="blog">
+               <div class="row session-title">
+                   <h2>Latest Blog</h2>
+                   <p>We can talk for a long time about advantages of our Dental clinic before other medical treatment facilities.
+But you can read the following facts in order to make sure of all pluses of our clinic:</p>
+               </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="blog-singe no-margin row">
+                                <div class="col-sm-5 blog-img-tab">
+                                    <img src="{% static 'website/images/blog/blog_01.jpg' %}" alt="">
+                                </div>
+                                <div class="col-sm-7 blog-content-tab">
+                                    <h2>Why Primary treatment is important ?</h2>
+                                    <p><i class="fas fa-user"><small>Admin</small></i>  <i class="fas fa-eye"><small>(12)</small></i>  <i class="fas fa-comments"><small>(12)</small></i></p>
+                                    <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard shortcut is the same keyboard shortcut is the </p>
+                                    <a href="{% url 'blog' %}">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="blog-singe no-margin row">
+                                <div class="col-sm-5 blog-img-tab">
+                                    <img src="{% static 'website/images/blog/blog_02.jpg' %}" alt="">
+                                </div>
+                                <div class="col-sm-7 blog-content-tab">
+                                    <h2>Why Primary treatment is important ?</h2>
+                                    <p><i class="fas fa-user"><small>Admin</small></i>  <i class="fas fa-eye"><small>(12)</small></i>  <i class="fas fa-comments"><small>(12)</small></i></p>
+                                    <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard shortcut is the same keyboard shortcut is the </p>
+                                    <a href="{% url 'blog' %}">Read More <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- ######## Blog End ####### -->
+        
+           <!-- ################# Footer Starts Here#######################--->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h2>About Us</h2>
+                    <p>
+                        Write anythin hear brahhhhhhh consulting, and business process services. Our dedicated employees offer strategic insights, technological expertise and industry experience.
+                    </p>
+                    <p>We focus on technologies that promise to reduce costs, streamline processes and speed time-to-market, Backed by our strong quality processes and rich experience managing global... </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2>Useful Links</h2>
+                    <ul class="list-unstyled link-list">
+                        <li><a ui-sref="about" href="{% url 'about' %}">About us</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="products" href="#/products">Latest jobs</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="contact" href="{% url 'contact' %}">Contact us</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 map-img">
+                    <h2>Contact Us</h2>
+                    <address class="md-margin-bottom-40">
+                        BlueDart <br>
+                        Marthandam (K.K District) <br>
+                        Tamil Nadu, IND <br>
+                        Phone: +91 9159669599 <br>
+                        Email: <a href="mailto:info@anybiz.com" class="">info@bluedart.in</a><br>
+                        Web: <a href="smart-eye.html" class="">www.bluedart.in</a>
+                    </address>
+
+                </div>
+            </div>
+        </div>
+        
+
+    </footer>
+    <div class="copy">
+            <div class="container">
+                <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
+                
+                <span>
+                <a><i class="fab fa-github"></i></a>
+                <a><i class="fab fa-google-plus-g"></i></a>
+                <a><i class="fab fa-pinterest-p"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-facebook-f"></i></a>
+        </span>
+            </div>
+
+        </div>   
+    
+    </body>
+
+<script src="{% static 'website/js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'website/js/popper.min.js' %}"></script>
+<script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'website/plugins/slider/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'website/plugins/scroll-fixed/jquery-scrolltofixed-min.js' %}"></script>
+
+<script src="{% static 'website/js/script.js' %}"></script>
+
+
+
+</html>
